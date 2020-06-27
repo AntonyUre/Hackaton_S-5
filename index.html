@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,7 @@
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="./styles/style.css">
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="./img/LOGO.png" type="image/x-icon">
-    <!-- GOOGLE FONTS -->
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
@@ -18,8 +17,8 @@
 <body>
     <div class="wrapper">
         <header>
+            <a href="http://antonyur.com"><img src="./img/LOGO.png" alt="Logotipo"></a>
             <nav>
-                <a href="http://antonyur.com"><img src="./img/LOGO.png" alt="Logotipo"></a>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Espectaculos</a></li>
@@ -40,82 +39,91 @@
             </div>
             <!-- POST'S -->
             <div class="post-box">
-                <p>POPULAR</p>
-                <article>
+                <p class="popular">POPULAR</p>
+                <article class="main-post">
                     <div class="text-box">
                         <h2>Feugiat sodales at nullam tellus. </h2>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="credits">
-                        <div>
-                            <h3>Samatha Leuthex</h3>
-                            <p>May 5, 3 min read </p>
-                        </div>
-                            <img src="./img/icon-save.png" alt="guardar">
-                            <img src="./img/icon-share.png" alt="guardar">
+
+                        <div class="credits">
+                            <div>
+                                <h3>Samatha Leuthex</h3>
+                                <address>May 5, 3 min read </address>
+                            </div>
+                                <img src="./img/icon-save.png"  alt="guardar">
+                                <img src="./img/icon-share.png"alt="guardar">
                         </div>
                     </div>
-                    
+
                     <figure>
                         <img src="./img/img-post-1.png" alt="">
                     </figure>
-
                 </article>
-                <div>
+                
+                
+                <!-- ARTICULOS -->
+                <div class="featured-articles">
                     <article>
                         <figure>
                             <img src="./img/img-post-2.png" alt="">
                         </figure>
-                        <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <div class="credits">
-                            <div>
-                                <h3>Samatha Leuthex</h3>
-                                <p>May 5, 3 min read </p>
-                            </div>
-                            <img src="./img/icon-save.png" alt="guardar">
-                            <img src="./img/icon-share.png" alt="guardar">
-                            </div>
-                        </div>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="./img/img-post-3.png" alt="">
-                        </figure>
-                        <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <div class="credits">
-                            <div>
-                                <h3>Samatha Leuthex</h3>
-                            <p>May 5, 3 min read </p>
-                            </div>
-                            <img src="./img/icon-save.png" alt="guardar">
-                            <img src="./img/icon-share.png" alt="guardar">
+                        <div class="text-article">
+                            <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <div class="credits">
+                                <div>
+                                    <h3>Samatha Leuthex</h3>
+                                    <p>May 5, 3 min read </p>
+                                </div>
+                                <img src="./img/icon-save.png"  alt="guardar">
+                                <img src="./img/icon-share.png"     alt="guardar">
+                                </div>
                             </div>
                         </div>
                     </article>
                     <article>
                         <figure>
-                            <img src="./img/img-post-4.png" alt="">
+                            <img src="./img/img-post-2.png" alt="">
                         </figure>
-                        <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <div class="credits">
-                            <div>
-                                <h3>Samatha Leuthex</h3>
-                            <p>May 5, 3 min read </p>
+                        <div class="text-article">
+                            <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <div class="credits">
+                                <div>
+                                    <h3>Samatha Leuthex</h3>
+                                    <p>May 5, 3 min read </p>
+                                </div>
+                                <img src="./img/icon-save.png"  alt="guardar">
+                                <img src="./img/icon-share.png"     alt="guardar">
+                                </div>
                             </div>
-                            <img src="./img/icon-save.png" alt="guardar">
-                            <img src="./img/icon-share.png" alt="guardar">
+                        </div>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="./img/img-post-2.png" alt="">
+                        </figure>
+                        <div class="text-article">
+                            <h2>Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <div class="credits">
+                                <div>
+                                    <h3>Samatha Leuthex</h3>
+                                    <p>May 5, 3 min read </p>
+                                </div>
+                                <img src="./img/icon-save.png"  alt="guardar">
+                                <img src="./img/icon-share.png"     alt="guardar">
+                                </div>
                             </div>
                         </div>
                     </article>
                 </div>
                 <!-- LINEA HORIZONTAL  -->
-                <div>
+                <div class="line">
                     <p>See All Popular Article</p>
                     <hr>
                 </div>
-
+                
                 <!-- BOX-ARTICLE -->
                 <div class="box-article">
                     <article>
@@ -214,12 +222,12 @@
                         </div>
                     </article>
                 </div>
-                
+
                 <div class="old-new-post">
-                    <p> <img src="./img/arrow-left.png" alt=""> Old Post</p>
-                    <p> <img src="./img/arrow-right.png" alt=""> New Post</p>
+                    <p><img src="./img/arrow-left.png" alt=""> Old Post</p>
+                    <p> New Post <img src="./img/arrow-right.png" alt=""></p>
                 </div>
-                
+
             </div>
         </main>
         <!-- FONDO AZUL -->
@@ -229,11 +237,13 @@
                 <h4>Intersted to woek with our team? </h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam.</p>
             </div>
-            <input type="submit" value="let's Talk">
-
-            <!-- LINEA HORIZONTAL -->
-            <hr>
+            <div class="buton">
+                <input type="submit" value="let's Talk">
+            </div>
+            
         </div>
+        <!-- LINEA HORIZONTAL -->
+        <hr>
         <footer>
             <div class="footer-widget">
                 <a href=""> <img src="" alt=""></a>
