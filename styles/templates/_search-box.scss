@@ -1,0 +1,21 @@
+/* CAJA DE BUSQUEDA */
+.search-box{
+    position: relative;
+    margin:56px 0;
+    i{
+    position: absolute;
+    padding: 20px 0 0 30px;
+    color: map-get($colors, grisUno);
+    }
+    input{
+    width: 100%;
+    padding: 19px 10px 19px 72px ;
+    font-size: 16px;
+    color: map-get($colors, grisUno);
+    background-color: map-get($colors, grisDos);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+}

@@ -1,0 +1,17 @@
+/* LINEA DE VER MAS ARTICULOS POPULARES */
+.line{
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+    text-align: right;
+    margin-bottom: 58px;
+    p{
+        /* margin-bottom: 26px; */
+        color: var(--color-analogo);
+        font-weight: bold;
+    }
+    .line hr{
+        border: 1px solid var(--color-terciario);
+        opacity: 0.3;
+    }
+}

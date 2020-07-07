@@ -1,0 +1,15 @@
+/* POST ANTERIOR Y POSTERIOR */
+.old-new-post{
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+    a{
+        color: var(--color-analogo);
+        &:hover{
+            color: var(--color-cuartario);
+        }
+    }
+}
