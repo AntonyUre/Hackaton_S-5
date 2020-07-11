@@ -4,10 +4,13 @@
     right: 2%;
     bottom: 4%;
     a{
-    background-color: rgba(0, 0, 0, 0.287);
+    background-color: map-get($colors, black);
     padding: 15px 16px;
     border-radius:32px ;
-    color: var(--color-secundario);
+    i{
+        color: map-get($colors, white);
+        // color: map-get($colors, dark);
+    }
         &:hover{
             color: var(--color-terciario);
         }

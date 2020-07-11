@@ -8,6 +8,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include breakpoints(xs){
+        padding: 10px;
+        transition: 1s;
+    }
     nav
     ul{
         display: flex;
@@ -16,9 +20,13 @@ header{
             padding-left:20px;
             font-weight: bold;
             font-size: 1.25rem;
-            color: map-get($colors, primario);
+            color: map-get($colors, primary);
             &:hover{
-                color: map-get($colors, secundario);
+                color: map-get($colors, secondary);
+            }
+            @include breakpoints(xs){
+                font-size: 1rem;
+                transition: 1s;
             }
         }
     }

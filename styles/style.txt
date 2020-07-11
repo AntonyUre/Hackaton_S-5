@@ -129,7 +129,7 @@ h2{
     line-height: 24px;
     color: var(--color-primario);
 }
-.credits address{
+.credits time{
     font-size: 14px;
     line-height: 24px;
     color: var(--color-terciario);

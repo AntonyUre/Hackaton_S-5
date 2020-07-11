@@ -4,3 +4,6 @@ body{
 a{
     text-decoration: none;
 }
+h2{
+    color: map-get($colors, primary);
+}

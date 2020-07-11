@@ -7,11 +7,12 @@
     margin-bottom: 58px;
     p{
         /* margin-bottom: 26px; */
-        color: var(--color-analogo);
+        font-size: 1rem;
         font-weight: bold;
+        color: map-get($colors , secondary);
     }
-    .line hr{
-        border: 1px solid var(--color-terciario);
+    hr{
+        border: 1px solid map-get($colors, grayDark);
         opacity: 0.3;
     }
 }

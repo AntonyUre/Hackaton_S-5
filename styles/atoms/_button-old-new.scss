@@ -7,9 +7,9 @@
     justify-content: space-between;
     margin-bottom: 98px;
     a{
-        color: var(--color-analogo);
+        color: map-get($colors, secondary);
         &:hover{
-            color: var(--color-cuartario);
+            color: map-get($colors, tertiary);
         }
     }
 }
