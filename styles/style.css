@@ -524,6 +524,106 @@ ul a {
           align-items: flex-end;
 }
 
+/* WIDGETS */
+.widgets {
+  width: 100%;
+  max-width: 980px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.widgets .box-text {
+  width: 50%;
+  margin-top: 90px;
+}
+
+@media (max-width: 620px) {
+  .widgets .box-text {
+    width: 100%;
+  }
+}
+
+.widgets h4 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  margin-bottom: 32px;
+}
+
+.widgets p {
+  margin-bottom: 94px;
+  opacity: 0.6;
+}
+
+@media (max-width: 828px) {
+  .widgets p {
+    margin-bottom: 30px;
+  }
+}
+
+.widgets .button {
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.widgets .button input {
+  padding: 15px 74px;
+  background: #1F3F68;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.widgets .button input:hover {
+  background-color: #316099;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media (max-width: 620px) {
+  .widgets .button input {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .widgets .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .widgets {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .box-container {
   max-width: 100%;
   max-width: 980px;
